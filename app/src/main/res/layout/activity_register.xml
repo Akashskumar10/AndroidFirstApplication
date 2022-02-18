@@ -51,12 +51,12 @@
 
     <EditText
         android:id="@+id/password"
-        android:hint="enter your password"
-        android:drawableLeft="@drawable/regpassword"
-        android:layout_margin="5dp"
-        android:password="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/regpassword"
+        android:hint="enter your password"
+        android:password="true" />
 
     <EditText
         android:id="@+id/cp"
@@ -66,18 +66,21 @@
         android:password="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn"
-        android:text="Register"
-        android:background="#E91E63"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Register" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn3"
-        android:text="back to login"
-        android:padding="10dp"
-        android:background="#1B6A95"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstylereg"
+        android:layout_margin="5dp"
+        android:text="back to login"/>
 </LinearLayout>
 </ScrollView>

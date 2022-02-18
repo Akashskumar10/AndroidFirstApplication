@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
                 getUserName=c1.getText().toString();
                 getPassword=c2.getText().toString();
-                Toast.makeText(getApplicationContext(),getUserName,Toast.LENGTH_SHORT).show();
-                Toast.makeText(getApplicationContext(),getPassword,Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), " login success", Toast.LENGTH_SHORT).show();
+
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
